@@ -1,0 +1,8 @@
+
+name: demo_dbt
+version: 1.0.0
+profile: default
+model-paths: ["models"]
+models:
+  demo_dbt:
+    +materialized: view
